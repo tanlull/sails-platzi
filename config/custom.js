@@ -39,8 +39,8 @@ module.exports.custom = {
   * The TTL (time-to-live) for various sorts of tokens before they expire.  *
   *                                                                         *
   **************************************************************************/
-  passwordResetTokenTTL: 24*60*60*1000,// 24 hours
-  emailProofTokenTTL:    24*60*60*1000,// 24 hours
+  passwordResetTokenTTL: 24 * 60 * 60 * 1000,// 24 hours
+  emailProofTokenTTL: 24 * 60 * 60 * 1000,// 24 hours
 
   /**************************************************************************
   *                                                                         *
@@ -48,7 +48,7 @@ module.exports.custom = {
   * if "Remember Me" was checked while logging in.                          *
   *                                                                         *
   **************************************************************************/
-  rememberMeCookieMaxAge: 30*24*60*60*1000, // 30 days
+  rememberMeCookieMaxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
 
   /**************************************************************************
   *                                                                         *

@@ -1,0 +1,11 @@
+<div id="available-things" v-cloak>
+
+  <h1>Things</h1>
+  <p>Subtitle</p>
+  <button> TODO </button>
+<ul> 
+  <li @click="clickThing(1)">AAA</li>
+  <li @click="clickThing(2)">BBB</li>
+</ul>
+</div>
+<%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>

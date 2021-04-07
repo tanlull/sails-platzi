@@ -10,12 +10,11 @@ parasails.registerPage('available-things', {
   //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
   //  ╩═╝╩╚  ╚═╝╚═╝ ╩ ╚═╝╩═╝╚═╝
   beforeMount: function () {
-    //…
-    _.extend(this, SAILS_LOCALS);
-    this.things = [
-      { id: 1, label: 'Sweet Red Drill' },
-      { id: 2, label: 'Red Mountain Bike' }
-    ];
+    // fake date
+    // this.things = [
+    //   { id: 1, label: 'Sweet Red Drill' },
+    //   { id: 2, label: 'Red Mountain Bike' }
+    // ];
   },
   mounted: async function () {
     //…

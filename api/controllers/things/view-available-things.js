@@ -18,8 +18,11 @@ module.exports = {
 
   fn: async function () {
 
-    // Respond with view.
-    return {};
+    let things = [
+      { id: 1, label: 'Sweet Red Drill' },
+      { id: 2, label: 'Red Mountain Bike' }
+    ];
+    return { things };
 
   }
 

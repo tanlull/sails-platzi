@@ -4,8 +4,8 @@
   <p>Subtitle</p>
   <button> TODO </button>
 <ul> 
-  <li @click="clickThing(1)">AAA</li>
-  <li @click="clickThing(2)">BBB</li>
+  <li v-for="thing in things" @click="clickThing(thing.id)">{{thing.label}}</li>
+
 </ul>
 </div>
 <%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>

@@ -1,3 +1,5 @@
+
+
 module.exports = {
 
 
@@ -18,10 +20,13 @@ module.exports = {
 
   fn: async function () {
 
-    let things = [
-      { id: 1, label: 'Sweet Red Drill' },
-      { id: 2, label: 'Red Mountain Bike' }
-    ];
+    // let things = [
+    //   { id: 1, label: 'Sweet Red Drill' },
+    //   { id: 2, label: 'Red Mountain Bike' }
+    // ];
+    //TODO come back to this and only fect user can see
+    var things = await Thing.find();
+
     return { things };
 
   }
